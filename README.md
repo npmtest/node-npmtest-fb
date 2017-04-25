@@ -1,4 +1,7 @@
-# test coverage for  [fb (v2.0.0)](https://github.com/node-facebook/facebook-node-sdk)  [![npm package](https://img.shields.io/npm/v/npmtest-fb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fb.svg)](https://travis-ci.org/npmtest/node-npmtest-fb)
+# npmtest-fb
+
+#### basic test coverage for  [fb (v2.0.0)](https://github.com/node-facebook/facebook-node-sdk)  [![npm package](https://img.shields.io/npm/v/npmtest-fb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fb.svg)](https://travis-ci.org/npmtest/node-npmtest-fb)
+
 #### NodeJS Library for Facebook
 
 [![NPM](https://nodei.co/npm/fb.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/fb)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fb/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fb/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fb/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fb/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fb/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fb/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fb/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fb/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fb/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fb/build/coverage.html/index.html)
 
@@ -104,7 +107,8 @@
         "prepublish": "npm run build",
         "test": "npm run build && node ./node_modules/mocha/bin/mocha --recursive"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 

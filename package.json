@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [fb (v2.0.0)](https://github.com/node-facebook/facebook-node-sdk) [![npm package](https://img.shields.io/npm/v/npmtest-fb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fb.svg)](https://travis-ci.org/npmtest/node-npmtest-fb)",
+    "description": "#### basic test coverage for  [fb (v2.0.0)](https://github.com/node-facebook/facebook-node-sdk)  [![npm package](https://img.shields.io/npm/v/npmtest-fb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fb.svg)](https://travis-ci.org/npmtest/node-npmtest-fb)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "fb": "*",
